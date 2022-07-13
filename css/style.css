@@ -203,6 +203,9 @@
 .white-section{
     background: #FAFCFF;;
 }
+.card-testimonial.flex-column.v2{
+    background: transparent !important;
+}
 .banner{
     height: 846px;
     margin-bottom: 100px;
@@ -281,6 +284,9 @@
 .p-25{
     padding: 25px 25px 25px 25px;
 }
+.p-60{
+    padding: 60px 60px 60px 60px;
+}
 .mt-50{
     margin-top: 50px;
 }
@@ -289,4 +295,7 @@
 }
 .mr-40{
     margin-left: 40px;
+}
+.mb-150{
+    margin-bottom: 150px;
 }
