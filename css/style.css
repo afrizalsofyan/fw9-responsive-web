@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
 
+.header-img-bg-v1{
+    background-image: url();
+}
+body {
+    margin: 0px;
+}
+
 .font-header {
     font-family: 'Nunito Sans';
     font-weight: 800;
@@ -8,6 +15,9 @@
 }
 .font-header.title{
     text-align: center;
+}
+.logo-white{
+    color: #FFFFFF !important;
 }
 .footer-desc-text{
     font-family: 'Nunito Sans';
@@ -182,7 +192,12 @@
     right: 0px;
     z-index: 2;
 }
-
+.bg-v2{
+    margin-top: 185px; 
+    background-image: url(./assets/img/phone_bg.png); 
+    background-size:contain; 
+    background-repeat: no-repeat;
+}
 .bg-blue{
     background: #6379F4;
 }
@@ -198,10 +213,11 @@
     justify-content: space-between;
 }
 .grey-section{
-    background: rgba(71, 58, 209, 0.06);
+    background: #473AD10F;
+
 }
 .white-section{
-    background: #FAFCFF;;
+    background: #fff;
 }
 .card-testimonial.flex-column.v2{
     background: transparent !important;

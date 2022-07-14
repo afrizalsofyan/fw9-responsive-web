@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Z-Wallet</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="white-section">
+<body>
     
-    <section class="grey-section">
+    <section class="white-section">
         <div class="container-box">
             <main class="flex-row py-120">
                 <img src="./assets/icons/company_logo1.svg" alt="" width="173px" height="120px">
@@ -21,13 +21,13 @@
             </main>
         </div>
     </section>
-    <section>
+    <section class="grey-section">
         <div class="container-box">
             <main class="py-80">
                 <h1 class="font-header title"><span class="color-blue-text">About</span> the Application.</h1>
                 <p class="font-paragraph center mb-70">We have some great features from the application and it’s totally free to use by all users around the world.</p>
                 <div class="flex-row between">
-                    <div class="card-testimonial flex-column v2">
+                    <div class="card-testimonial flex-column">
                         <img src="./assets/icons/icon1.svg" alt="iconPhone.svg" class="img-testimonial center-icon" >
                         <p class="testimonial-title">24/7 Support</p>
                         <p class="font-paragraph testimonial-desc">We have 24/7 contact support so you can contact us whenever you want and we will respond it.</p>
@@ -37,7 +37,7 @@
                         <p class="testimonial-title">Data Privacy</p>
                         <p class="font-paragraph testimonial-desc">We make sure your data is safe in our database and we will encrypt any data you submitted to us.</p>
                     </div>
-                    <div class="card-testimonial flex-column v2">
+                    <div class="card-testimonial flex-column">
                         <img src="./assets/icons/icon3.svg" alt="iconPhone.svg" class="img-testimonial center-icon" >
                         <p class="testimonial-title">Easy Download</p>
                         <p class="font-paragraph testimonial-desc">Zwallet is 100% totally free to use it’s now available on Google Play Store and App Store.</p>
@@ -46,38 +46,7 @@
             </main>
         </div>
     </section>
-    <section class="grey-section">
-        <div class="container-box">
-            <div class="flex-row flex-direction-row">
-                <div class="py-100">
-                    <div style="margin-top: 185px; background-image: url(./assets/img/phone_bg.png); background-size:contain; background-repeat: no-repeat;">
-                        <img src="./assets/img/elips.png" alt="" style="margin-bottom: 0; margin-left: -3%; z-index: 1; width: 20%;">
-                        <img src="./assets/img/png-phone2.png" alt="" style="width: 363px; margin-left: -15%; margin-top: -30%; z-index: 2;">
-                    </div>
-                </div>
-                <main class="flex-column justify-center">
-                    <h2 class="font-header">All The <span class="color-blue-text">Great</span> <br> Zwallet Features.</h2>
-                    <div class="card-responsive p-25">
-                        <span class="title-card"><span class="color-blue-text">1.</span> Small Fee</span>
-                        <br>
-                        <span class="font-paragraph pt-15">We only charge 5% of every success transaction done in Zwallet app.</span>
-                    </div>
-                    <div class="my-30">
-                        <div class="card-responsive p-25">
-                            <span class="title-card"><span class="color-blue-text">1.</span> Small Fee</span>
-                            <br>
-                            <span class="font-paragraph pt-15">We only charge 5% of every success transaction done in Zwallet app.</span>
-                        </div>
-                    </div>
-                    <div class="card-responsive p-25">
-                        <span class="title-card"><span class="color-blue-text">1.</span> Small Fee</span>
-                        <br>
-                        <span class="font-paragraph pt-15">We only charge 5% of every success transaction done in Zwallet app.</span>
-                    </div>
-                </main>
-            </div>
-        </div>
-    </section>
+    <!-- min all greate -->
     <section class="white-section">
         <div class="container-box">
             <div class="py-80">
@@ -116,8 +85,8 @@
 </html>
 
 <!-- <header class="container-box nav-header">
-    <div>
-        <span class="logo-text">Zwallet</span>
+    <div style="z-index: 2;">
+        <span class="logo-text logo-white">Zwallet</span>
     </div>
     <div class="nav-position">
         <button class="btn-login">
@@ -132,29 +101,30 @@
         </button> 
     </div>
 </header>
-<section>
-    <div class="container-box">
-        <div class="flex-row mb-150">
-            <div>
-                <div class="bg-v2">
-                    <img src="./assets/img/elips.png" alt="" style="margin-bottom: 0; margin-left: -3%; z-index: 1; width: 20%;">
-                    <img src="./assets/img/png-phone.png" alt="" style="width: 363px; margin-left: -15%; margin-top: -30%; z-index: 2;">
-                </div>
-            </div>
-            <div class="flex-column justify-center">
-                <h2 class="font-header">
-                    Awesome App<br>For Saving <span class="color-blue-text">Time.</span>
-                </h2>
-                <p class="font-paragraph">We bring you a mobile app for banking problems that oftenly wasting much of your times.</p>
+<section class="bg-blue">
+    <div class="position-absolute-2">
+        <img src="./assets/vector/vectorv3.svg" alt="" width="100%" height="50%">
+    </div>
+    <div class="position-absolute-2">
+        <img src="./assets/vector/vectorv_3.svg" alt="" width="100%" height="50%">
+    </div>
+    <div class="container-box" style="position: relative; z-index: 2;">
+       <div class="flex-row">
+            <div class="flex-column">
+                <h1 class="font-header">
+                    Awesome App
+                    <br>For Saving <span class="color-blue-text">Time.</span>
+                </h1>
+                <p class="font-paragraph">We bring you a mobile app for banking problems <br>that
+                    oftenly wasting much of your times.</p>
                 <button type="button" class="btn-try">
                     <span class="font-white-btn">Try It Free</span>
                 </button>
-                <p class="font-paragraph mt-50">Available on</p>
-                <div class="flex-row">
-                    <img src="./assets/icons/googleplay.png" alt="" width="35px">
-                    <img src="./assets/icons/appstore.png" alt="" width="35px" class="mr-40">
-                </div>
             </div>
-        </div>
+            <div style="display: flex; flex-direction: column; justify-content: end; margin-left: 100px;">
+                <img src="assets/img/png_phone_v3.png" alt="" width="80%">
+            </div>
+       </div>
     </div>
+    
 </section> -->
