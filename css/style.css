@@ -5,6 +5,7 @@ body{
     margin: 0;
     font-family: 'Nunito Sans' !important;
     font-style: normal !important;
+    background: #473AD10F;
 }
 
 /* flex */
@@ -172,6 +173,12 @@ body{
     width: 25%;
 }
 /* color */
+.color-green{
+    color: #1EC15F;
+}
+.color-red{
+    color: #FF5B37;
+}
 .color-blue-pm{
     background-color: #6379F4;
 }
@@ -204,6 +211,15 @@ body{
 }
 .show-eye{
     color: #6379F4;
+}
+.blue-active{
+    color: #6379F4;
+}
+.nav-link.active{
+    color: #6379F4 !important;
+}
+.nav-link.not-act{
+    color: #3A3D42CC !important;
 }
 /* background */
 .bg-header-1{
@@ -282,7 +298,7 @@ body{
     padding: 120px 0;
 }
 .pad-x-150{
-    padding: 0 250px;
+    padding: 0 150px;
 }
 .px-6{
     padding: 0 8rem;
@@ -352,11 +368,32 @@ body{
 .pin-wrapper input:focus{
     outline: none;
 }
-input[type='number'] {
-    -moz-appearance:textfield;
+.box-pin{
+    width: 2em; 
+    height: 3em; 
+    border: unset;
+    margin: 10px;
+    border-bottom: 2px solid #3a3d423a;
+}
+.box-pin-border{
+    border:  1px solid #3a3d4269;
+    border-radius: 10px;
 }
 /* disable spin number */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
+}
+.color-blue-light{
+    color: #B5B0ED;
+}
+.color-white-20{
+    background-color: #FFFFFF33;
+}
+.max-w-8{
+    min-width: 8em; 
+    max-width: 8em;
+}
+.link-text:hover{
+    color: #6379F4 !important;
 }
