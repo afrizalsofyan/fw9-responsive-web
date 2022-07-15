@@ -199,6 +199,12 @@ body{
 .bg-color-tranasparent{
     background-color: transparent !important;
 }
+.bg-grey-light{
+    color:#3a3d4298;
+}
+.show-eye{
+    color: #6379F4;
+}
 /* background */
 .bg-header-1{
     background-image: url(/assets/img/bg-v1.png);
