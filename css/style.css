@@ -180,10 +180,11 @@ body{
     color: #FF5B37;
 }
 .color-blue-pm{
-    background-color: #6379F4;
+    background-color: #6379F4 !important;
+    box-shadow: none !important;
 }
 .txt-color-blue{
-    color: #6379F4;
+    color: #6379F4 !important;
 }
 .txt-color-white{
     color: #FFFFFF;
@@ -457,4 +458,27 @@ input::-webkit-inner-spin-button {
 .notes-custom:focus{
     box-shadow: none !important;
     background-color: transparent !important;
+}
+.btn-download-pdf{
+    background-color: #6379F426 !important;
+    border: 2px solid #6379F426 !important;
+}
+.btn-download-pdf:hover{
+    background-color: #6379f40e !important;
+    border: 2px solid #6379f446 !important;
+}
+.num-mark::marker{
+    color: #6379F4 !important;
+    font-weight: bold !important;
+    
+}
+.mv-marker{
+    padding-left: unset;
+}
+.menu-pos-item{
+    width: 25rem !important;
+    margin-top: 4rem !important;
+}
+.color-green-light{
+    color: #4CEDB3;
 }
