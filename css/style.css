@@ -482,3 +482,20 @@ input::-webkit-inner-spin-button {
 .color-green-light{
     color: #4CEDB3;
 }
+.bg-btn-profile{
+    background-color: #E5E8ED;
+}
+.bg-btn-profile:hover{
+    background-color: #d9e0eb;
+    border: 1px solid #d9e0eb;
+    box-shadow: none !important;
+}
+.color-btn-text-profile{
+    color: #4D4B57;
+}
+.border-grey-light{
+    border-bottom: 2px solid #A9A9A999;
+}
+.icon-btn:hover{
+    color: #6379F4;
+}
