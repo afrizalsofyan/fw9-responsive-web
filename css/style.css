@@ -130,30 +130,52 @@ body{
 /* button */
 .btn-custom-white{
     max-width: 150px;
-    padding: 10px 20px;
+    padding: 5px 20px;
+    border: 2px solid #6379F4;
     border-radius: 12px;
     background-color: #FFFFFF;
     border: 2px solid #FFFFFF;
     color: #6379F4;
-    font-weight: lighter;
+    font-weight: 400;
+}
+.btn-custom-white:hover{
+    background-color: #d8d8d8ec;
+    border: 2px solid #c4c4c4ec;
+    color: #3d58f3;
 }
 .btn-custom-blue{
     max-width: 150px;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 12px;
     background-color: #6379F4;
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
-    font-weight: lighter;
+    font-weight: 400;
+}
+.btn-custom-blue:hover{
+    background-color: #4762fa;
+    border: 2px solid #ffffffa8;
+    color: #e9e9e9;
 }
 .btn-try-blue{
     max-width: 150px;
-    padding: 20px 40px;
+    text-align: center;
+    padding: 15px 15px;
     border-radius: 12px;
     background-color: #6379F4;
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
     font-weight: bold;
+}
+.btn-try-blue:hover{
+    background-color: #6379f4ce;
+}
+.btn-try-blue.bg-white{
+    background-color: #ffffffe1;
+}
+.btn-try-blue.bg-white.txt-color-blue:hover{
+    background-color: rgb(255, 255, 255);
+    color: #6379f49c !important;
 }
 .btn-cstm:hover{
     background-color: #8e9cf0 !important;
@@ -498,4 +520,7 @@ input::-webkit-inner-spin-button {
 }
 .icon-btn:hover{
     color: #6379F4;
+}
+.wd-bx-3{
+    width: 8rem;
 }
