@@ -245,12 +245,7 @@ body{
     color: #3A3D42CC !important;
 }
 /* background */
-.bg-header-1{
-    background-image: url(/assets/img/bg-v1.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 50%;
-}
+
 .bg-header-2{
     background-image: url(/assets/img/bg-phone-v2.png);
     background-repeat: no-repeat;
@@ -524,3 +519,258 @@ input::-webkit-inner-spin-button {
 .wd-bx-3{
     width: 8rem;
 }
+.about-section-v1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+/* .content-great{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */
+.content-great{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.align-center-item{
+    align-items: center;
+}
+.width-img-great-1{
+    width: 120%;
+}
+/* media query */
+@media (max-width: 990px){
+    .partner-section-v1{
+        width: 100%;
+    }
+    .content-great{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .width-img-great-1{
+        width: 100%;
+    }
+}
+@media (max-width: 766px) { 
+    .text-content-banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .container-box{
+        margin-left: 70px;
+        margin-right: 70px; 
+    }
+    .bg-img-1{
+        width: 100%;
+    }
+    .width-img-banner-1{
+        width: 100%;
+    }
+    .bg-header-1{
+        background-image: unset;
+    }
+    .banner-position-1{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        gap: 20px;
+        align-items: center;
+    }
+    .content-position-v1{
+        display: flex;
+        flex-direction: column-reverse;
+        /* justify-content: space-between; */
+    }
+    .fnt-header{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        color: #3A3D42;
+    }
+    .fnt-paragraph{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 31px;
+        color: #3A3D42;
+    }
+    
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) { 
+    .bg-img-1{
+        width: 40%;
+    }
+    .text-content-banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .fnt-header{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        color: #3A3D42;
+    }
+    .fnt-paragraph{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        /* line-height: 31px; */
+        color: #3A3D42;
+    }
+    .width-img-banner-1{
+        width: 100%;
+    }
+    .bg-header-1{
+        background-image: url(/assets/img/bg-v1.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 50%;
+    }
+    .banner-position-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .content-position-v1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /* footer */
+    .footer-copyright{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+ }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 991.98px) { 
+    .bg-img-1{
+        width: 40%;
+    }
+    .width-img-banner-1{
+        width: 100%;
+    }
+    .bg-header-1{
+        background-image: url(/assets/img/bg-v1.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 50%;
+    }
+    .banner-position-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .content-position-v1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .fnt-header{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        color: #3A3D42;
+    }
+    .fnt-paragraph{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        /* line-height: 31px; */
+        color: #3A3D42;
+    }
+
+    /* about */
+    .about-section-v1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    /* partners */
+    .partner-section-v1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) { 
+    .bg-img-1{
+        width: 30%;
+    }
+    .width-img-banner-1{
+        width: 100%;
+    }
+    .bg-header-1{
+        background-image: url(/assets/img/bg-v1.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 40%;
+    }
+    .banner-position-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .content-position-v1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+ }
+ @media (min-width: 1500px) { 
+    .bg-img-1{
+        width: 25%;
+    }
+    .width-img-banner-1{
+        width: 100%;
+    }
+    .bg-header-1{
+        background-image: url(/assets/img/bg-v1.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 35%;
+    }
+    .banner-position-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .content-position-v1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+ }
