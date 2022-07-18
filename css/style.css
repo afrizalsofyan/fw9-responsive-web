@@ -661,6 +661,10 @@ input::-webkit-inner-spin-button {
         gap: 50px;
         align-items: center;
     }
+    .text-nav{
+        font-size: 12px;
+        margin: unset;
+    }
     .partner-logo{
         display: flex;
         flex-direction: column;
