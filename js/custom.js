@@ -17,3 +17,9 @@ function showPass2(){
         pass.type = 'text';
     }
 }
+
+let collapse = document.getElementsByClassName('button-collapse')[0];
+let content = document.getElementsByClassName('nav-menu')[0];
+collapse.addEventListener('click', ()=>{
+    content.classList.toggle('opened')
+})
