@@ -35,47 +35,47 @@
             </div>
         </nav>
     </header>
-    <main class="p-5 d-flex flex-row gap-5">
-        <aside class="d-flex">
-            <div class="d-flex flex-column justify-content-between bg-white ps-3 pe-5 py-5 rounded-5 min-vh-100 shadow-sm">
-                <ul class="d-flex flex-column nav nav-tabs border-0 pe-5 gap-4">
-                    <li class="nav-item">
-                        <a class="nav-link not-act border-0 d-flex flex-row gap-4 align-items-center" href="./home.html">
-                            <i class="" data-feather="grid" ></i>
-                            <span class="fs-5">Dashboard</span>
+    <main class="p-5">
+        <div class="row">
+            <aside class="col-12 col-md-5 col-lg-3 mb-5 mb-md-0 d-flex">
+                <div class="w-100 d-flex flex-column justify-content-between bg-white ps-3 pe-5 py-5 rounded-5 shadow-sm">
+                    <ul class="d-flex flex-column nav nav-tabs border-0 pe-5 gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link not-act border-0 d-flex flex-row gap-4 align-items-center" href="./home.html">
+                                <i class="" data-feather="grid" ></i>
+                                <span class="fs-5">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex flex-row gap-2">
+                            <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="./transfer.html">
+                                <i data-feather="arrow-up" ></i>
+                                <span class="fs-5 active">Transfer</span>
+                            </a>
+                        </li>
+                        <li class="d-flex flex-row gap-2">
+                            <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="./topup.html">
+                                <i data-feather="plus" ></i>
+                                <span class="fs-5">Top Up</span>
+                            </a>
+                        </li>
+                        <li class="d-flex flex-row gap-2">
+                            <a class="nav-link active link-text border-0 d-flex flex-row gap-4 align-items-center" href="./profile.html">
+                                <img src="../assets/icons/active-mark.png" alt="">
+                                <i data-feather="user" ></i>
+                                <span class="fw-bold fs-5">Profile</span>    
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="ps-3 pb-4 py-4">
+                        <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="../auth/pages/login.html">
+                            <i data-feather="log-out"></i>
+                            <span class="fs-5">Logout</span>
                         </a>
-                    </li>
-                    <li class="nav-item d-flex flex-row gap-2">
-                        <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="./transfer.html">
-                            <i data-feather="arrow-up" ></i>
-                            <span class="fs-5 active">Transfer</span>
-                        </a>
-                    </li>
-                    <li class="d-flex flex-row gap-2">
-                        <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="./topup.html">
-                            <i data-feather="plus" ></i>
-                            <span class="fs-5">Top Up</span>
-                        </a>
-                    </li>
-                    <li class="d-flex flex-row gap-2">
-                        <a class="nav-link active link-text border-0 d-flex flex-row gap-4 align-items-center" href="./profile.html">
-                            <img src="../assets/icons/active-mark.png" alt="">
-                            <i data-feather="user" ></i>
-                            <span class="fw-bold fs-5">Profile</span>    
-                        </a>
-                    </li>
-                </ul>
-                <div class="ps-3 pb-4 py-4">
-                    <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="../auth/pages/login.html">
-                        <i data-feather="log-out"></i>
-                        <span class="fs-5">Logout</span>
-                    </a>
+                    </div>
                 </div>
-            </div>
-        </aside>
-        <section class="bg-white w-100 rounded-5 d-flex flex-column justify-content-center">
-            <div class="d-flex flex-row justify-content-center">
-                <div class="d-flex flex-column w-50 gap-4">
+            </aside>
+            <section class="col-12 col-md-7 col-lg-9 d-flex flex-column ">
+                <div class="d-flex flex-column bg-white py-5 gap-4 rounded-5">
                     <div class="d-flex flex-column gap-3">
                         <div class="d-flex flex-column align-items-center">
                             <img class="we-3" src="../assets/img/img3.png" alt="">
@@ -89,40 +89,44 @@
                             <span class="fw-light bg-grey-light">+62 813-8492-9994</span>
                         </div>
                     </div>
-                    <div class="d-flex flex-column gap-3 px-5">
-                        <a href="./details_profile.html" role="button" class="btn bg-btn-profile px-4 py-3">
-                            <div class="d-flex flex-row justify-content-between">
-                                <span class="color-btn-text-profile fw-semibold">Personal Information</span>
-                                <i class="color-btn-text-profile" data-feather="arrow-right"></i>
+                    <div class="row">
+                        <div class="col-12 d-flex flex-row justify-content-center">
+                            <div class="d-flex flex-column gap-3 px-2 px-sm-5 w-75">
+                                <a href="./details_profile.html" role="button" class="btn bg-btn-profile px-4 py-3">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <span class="color-btn-text-profile fw-semibold fs-6">Personal Information</span>
+                                        <i class="color-btn-text-profile d-none d-sm-flex" data-feather="arrow-right"></i>
+                                    </div>
+                                </a>
+                                <a href="./change_password.html" role="button" class="btn bg-btn-profile px-4 py-3">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <span class="color-btn-text-profile fw-semibold fs-6">Change Password</span>
+                                        <i class="color-btn-text-profile d-none d-sm-flex" data-feather="arrow-right"></i>
+                                    </div>
+                                </a>
+                                <a href="./change_pin.html" role="button" class="btn bg-btn-profile px-4 py-3">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <span class="color-btn-text-profile fw-semibold fs-6">Change PIN</span>
+                                        <i class="color-btn-text-profile d-none d-sm-flex" data-feather="arrow-right"></i>
+                                    </div>
+                                </a>
+                                <a href="../auth/pages/login.html" role="button" class="btn bg-btn-profile px-4 py-3">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <span class="color-btn-text-profile fw-semibold fs-6">Logout</span>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
-                        <a href="./change_password.html" role="button" class="btn bg-btn-profile px-4 py-3">
-                            <div class="d-flex flex-row justify-content-between">
-                                <span class="color-btn-text-profile fw-semibold">Change Password</span>
-                                <i class="color-btn-text-profile" data-feather="arrow-right"></i>
-                            </div>
-                        </a>
-                        <a href="./change_pin.html" role="button" class="btn bg-btn-profile px-4 py-3">
-                            <div class="d-flex flex-row justify-content-between">
-                                <span class="color-btn-text-profile fw-semibold">Change PIN</span>
-                                <i class="color-btn-text-profile" data-feather="arrow-right"></i>
-                            </div>
-                        </a>
-                        <a href="../auth/pages/login.html" role="button" class="btn bg-btn-profile px-4 py-3">
-                            <div class="d-flex flex-row justify-content-between">
-                                <span class="color-btn-text-profile fw-semibold">Logout</span>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
     <footer class="bg-blue">
         <div class="px-5 py-5">
-            <div class="d-flex flex-row justify-content-between">
+            <div class="d-flex flex-column flex-sm-row justify-content-between gap-4 gap-sm-0">
                 <span class="fw-light text-white">2020 Zwallet. All right reserved.</span>
-                <div class="d-flex flex-row justify-content-between gap-4">
+                <div class="d-flex flex-column flex-sm-row justify-content-between gap-4">
                     <div>
                         <span class="text-white">+62 5637 8882 9901</span>
                     </div>

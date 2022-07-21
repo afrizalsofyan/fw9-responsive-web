@@ -416,10 +416,10 @@ body{
     outline: none;
 }
 .box-pin{
-    width: 2em; 
-    height: 3em; 
+    width: 1.5em; 
+    height: 2em; 
     border: unset;
-    margin: 10px;
+    margin: 5px;
     border-bottom: 2px solid #3a3d423a;
 }
 .box-pin-border{
@@ -834,6 +834,13 @@ input::-webkit-inner-spin-button {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    .box-pin{
+        width: 2rem; 
+        height: 3rem; 
+        border: unset;
+        margin: 10px;
+        border-bottom: 2px solid #3a3d423a;
     }
  }
  @media (min-width: 1500px) { 

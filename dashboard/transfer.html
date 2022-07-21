@@ -33,111 +33,113 @@
             </div>
         </nav>
     </header>
-    <main class="p-5 d-flex flex-row justify-content-between">
-        <aside class="d-flex">
-            <div class="d-flex flex-column justify-content-between bg-white ps-3 pe-5 py-5 rounded-5 min-vh-100 shadow-sm">
-                <ul class="d-flex flex-column nav nav-tabs border-0 pe-5 gap-4">
-                    <li class="nav-item">
-                        <a class="nav-link not-act border-0 d-flex flex-row gap-4 align-items-center" href="./home.html">
-                            <i class="" data-feather="grid" ></i>
-                            <span class="fs-5">Dashboard</span>
+    <main class="p-5">
+        <div class="row">
+            <aside class="col-12 col-md-5 col-lg-3 mb-5 mb-lg-0 d-flex">
+                <div class="w-100 d-flex flex-column justify-content-between bg-white ps-3 pe-5 py-5 rounded-5 shadow-sm">
+                    <ul class="d-flex flex-column nav nav-tabs border-0 pe-5 gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link not-act border-0 d-flex flex-row gap-4 align-items-center" href="./home.html">
+                                <i class="" data-feather="grid" ></i>
+                                <span class="fs-5">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex flex-row gap-2">
+                            <a class="nav-link active link-text border-0 d-flex flex-row gap-4 align-items-center" href="./transfer.html">
+                                <img src="../assets/icons/active-mark.png" alt="">
+                                <i data-feather="arrow-up" ></i>
+                                <span class="fs-5 fw-bold">Transfer</span>
+                            </a>
+                        </li>
+                        <li class="d-flex flex-row gap-2">
+                            <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="./topup.html">
+                                <i data-feather="plus" ></i>
+                                <span class="fs-5">Top Up</span>
+                            </a>
+                        </li>
+                        <li class="d-flex flex-row gap-2">
+                            <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="./profile.html">
+                                <i data-feather="user" ></i>
+                                <span class="fs-5">Profile</span>    
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="ps-3 pb-4 py-4">
+                        <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="../auth/pages/login.html">
+                            <i data-feather="log-out"></i>
+                            <span class="fs-5">Logout</span>
                         </a>
-                    </li>
-                    <li class="nav-item d-flex flex-row gap-2">
-                        <a class="nav-link active link-text border-0 d-flex flex-row gap-4 align-items-center" href="./transfer.html">
-                            <img src="../assets/icons/active-mark.png" alt="">
-                            <i data-feather="arrow-up" ></i>
-                            <span class="fs-5 fw-bold">Transfer</span>
-                        </a>
-                    </li>
-                    <li class="d-flex flex-row gap-2">
-                        <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="./topup.html">
-                            <i data-feather="plus" ></i>
-                            <span class="fs-5">Top Up</span>
-                        </a>
-                    </li>
-                    <li class="d-flex flex-row gap-2">
-                        <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="./profile.html">
-                            <i data-feather="user" ></i>
-                            <span class="fs-5">Profile</span>    
-                        </a>
-                    </li>
-                </ul>
-                <div class="ps-3 pb-4 py-4">
-                    <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="../auth/pages/login.html">
-                        <i data-feather="log-out"></i>
-                        <span class="fs-5">Logout</span>
-                    </a>
+                    </div>
                 </div>
-            </div>
-        </aside>
-        <section class="w-100 px-5 d-flex flex-column">
-            <div class="d-flex flex-column bg-white p-5 gap-4 rounded-5">
-                <div class="d-flex flex-row justify-content-between">
-                    <span class="fw-bold fs-5">Search Receiver</span>
-                </div>
-                <div class="input-group search-input">
-                    <span class="icon-input">
-                        <i data-feather="search"></i>
-                    </span>
-                    <input  type="text" class="form-control ps-5 border-0 bg-grey-input rounded-3 py-3" placeholder="Search receiver here">
-                </div>
-                <div class="d-flex flex-column gap-5 py-4 overflow-auto h-75 pe-4">
-                    <a href="./transfer_amount.html" class="link-rm-line">
+            </aside>
+            <section class="col-12 col-md-7 col-lg-9 d-flex flex-column">
+                <div class="d-flex flex-column bg-white p-5 gap-4 rounded-5">
+                    <div class="d-flex flex-row justify-content-between">
+                        <span class="fw-bold fs-5">Search Receiver</span>
+                    </div>
+                    <div class="input-group search-input">
+                        <span class="icon-input">
+                            <i data-feather="search"></i>
+                        </span>
+                        <input  type="text" class="form-control ps-5 border-0 bg-grey-input rounded-3 py-3" placeholder="Search receiver here">
+                    </div>
+                    <div class="d-flex flex-column gap-5 py-4 overflow-auto h-75 pe-4">
+                        <a href="./transfer_amount.html" class="link-rm-line">
+                            <div class="d-flex flex-row justify-content-between">
+                                <div class="d-flex gap-3">
+                                    <div>
+                                        <img class="we-3" src="../assets/img/img1.png" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <span class="fw-semibold color-btn-text-profile">Jessica Keen</span>
+                                        <span class="fw-light bg-grey-light">+62 811-3452-5252</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                         <div class="d-flex flex-row justify-content-between">
                             <div class="d-flex gap-3">
                                 <div>
-                                    <img class="we-3" src="../assets/img/img1.png" alt="">
+                                    <img class="we-3" src="../assets/img/img3.png" alt="">
                                 </div>
                                 <div class="d-flex flex-column justify-content-center">
-                                    <span class="fw-semibold color-btn-text-profile">Jessica Keen</span>
-                                    <span class="fw-light bg-grey-light">+62 811-3452-5252</span>
+                                    <span class="fw-semibold">Samuel Suhi</span>
+                                    <span class="fw-light bg-grey-light">+62 813-8492-9994</span>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <div class="d-flex flex-row justify-content-between">
-                        <div class="d-flex gap-3">
-                            <div>
-                                <img class="we-3" src="../assets/img/img3.png" alt="">
-                            </div>
-                            <div class="d-flex flex-column justify-content-center">
-                                <span class="fw-semibold">Samuel Suhi</span>
-                                <span class="fw-light bg-grey-light">+62 813-8492-9994</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-row justify-content-between">
-                        <div class="d-flex gap-3">
-                            <div>
-                                <img class="we-3" src="../assets/img/img2.png" alt="" >
-                            </div>
-                            <div class="d-flex flex-column justify-content-center">
-                                <span class="fw-semibold">Michael Le</span>
-                                <span class="fw-light bg-grey-light">+62 810-4224-4613</span>
+                        <div class="d-flex flex-row justify-content-between">
+                            <div class="d-flex gap-3">
+                                <div>
+                                    <img class="we-3" src="../assets/img/img2.png" alt="" >
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <span class="fw-semibold">Michael Le</span>
+                                    <span class="fw-light bg-grey-light">+62 810-4224-4613</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="d-flex flex-row justify-content-between">
-                        <div class="d-flex gap-3">
-                            <div>
-                                <img class="we-3" src="../assets/img/img4.png" alt="" >
-                            </div>
-                            <div class="d-flex flex-column justify-content-center">
-                                <span class="fw-semibold">Momo Taro</span>
-                                <span class="fw-light bg-grey-light">+62 812-4343-6731</span>
+                        <div class="d-flex flex-row justify-content-between">
+                            <div class="d-flex gap-3">
+                                <div>
+                                    <img class="we-3" src="../assets/img/img4.png" alt="" >
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <span class="fw-semibold">Momo Taro</span>
+                                    <span class="fw-light bg-grey-light">+62 812-4343-6731</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
     <footer class="bg-blue">
         <div class="px-5 py-5">
-            <div class="d-flex flex-row justify-content-between">
+            <div class="d-flex flex-column flex-sm-row justify-content-between gap-4 gap-sm-0">
                 <span class="fw-light text-white">2020 Zwallet. All right reserved.</span>
-                <div class="d-flex flex-row justify-content-between gap-4">
+                <div class="d-flex flex-column flex-sm-row justify-content-between gap-4">
                     <div>
                         <span class="text-white">+62 5637 8882 9901</span>
                     </div>

@@ -35,117 +35,119 @@
             </div>
         </nav>
     </header>
-    <main class="p-5 d-flex flex-row gap-5">
-        <aside class="d-flex">
-            <div class="d-flex flex-column justify-content-between bg-white ps-3 pe-5 py-5 rounded-5 min-vh-100 shadow-sm">
-                <ul class="d-flex flex-column nav nav-tabs border-0 pe-5 gap-4">
-                    <li class="nav-item">
-                        <a class="nav-link not-act border-0 d-flex flex-row gap-4 align-items-center" href="./home.html">
-                            <i class="" data-feather="grid" ></i>
-                            <span class="fs-5">Dashboard</span>
+    <main class="p-5">
+        <div class="row">
+            <aside class="col-12 col-md-5 col-lg-3 mb-5 mb-lg-0 d-flex">
+                <div class="w-100 d-flex flex-column justify-content-between bg-white ps-3 pe-5 py-5 rounded-5 shadow-sm">
+                    <ul class="d-flex flex-column nav nav-tabs border-0 pe-5 gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link not-act border-0 d-flex flex-row gap-4 align-items-center" href="./home.html">
+                                <i class="" data-feather="grid" ></i>
+                                <span class="fs-5">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex flex-row gap-2">
+                            <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="./transfer.html">
+                                <i data-feather="arrow-up" ></i>
+                                <span class="fs-5">Transfer</span>
+                            </a>
+                        </li>
+                        <li class="d-flex flex-row gap-2">
+                            <a class="nav-link active link-text border-0 d-flex flex-row gap-4 align-items-center" href="./topup.html">
+                                <img src="../assets/icons/active-mark.png" alt="">
+                                <i data-feather="plus" ></i>
+                                <span class="fw-bold fs-5">Top Up</span>
+                            </a>
+                        </li>
+                        <li class="d-flex flex-row gap-2">
+                            <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="./profile.html">
+                                <i data-feather="user" ></i>
+                                <span class="fs-5">Profile</span>    
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="ps-3 pb-4 py-4">
+                        <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="../auth/pages/login.html">
+                            <i data-feather="log-out"></i>
+                            <span class="fs-5">Logout</span>
                         </a>
-                    </li>
-                    <li class="nav-item d-flex flex-row gap-2">
-                        <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="./transfer.html">
-                            <i data-feather="arrow-up" ></i>
-                            <span class="fs-5">Transfer</span>
-                        </a>
-                    </li>
-                    <li class="d-flex flex-row gap-2">
-                        <a class="nav-link active link-text border-0 d-flex flex-row gap-4 align-items-center" href="./topup.html">
-                            <img src="../assets/icons/active-mark.png" alt="">
-                            <i data-feather="plus" ></i>
-                            <span class="fw-bold fs-5">Top Up</span>
-                        </a>
-                    </li>
-                    <li class="d-flex flex-row gap-2">
-                        <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="./profile.html">
-                            <i data-feather="user" ></i>
-                            <span class="fs-5">Profile</span>    
-                        </a>
-                    </li>
-                </ul>
-                <div class="ps-3 pb-4 py-4">
-                    <a class="nav-link not-act link-text border-0 d-flex flex-row gap-4 align-items-center" href="../auth/pages/login.html">
-                        <i data-feather="log-out"></i>
-                        <span class="fs-5">Logout</span>
-                    </a>
+                    </div>
                 </div>
-            </div>
-        </aside>
-        <section class="bg-white w-100 rounded-5">
-            <div class="d-flex flex-column p-5">
-                <div>
-                    <span class="fw-bold">How To Top Up</span>
+            </aside>
+            <section class="col-12 col-md-7 col-lg-9 d-flex flex-column">
+                <div class="d-flex flex-column bg-white p-5 gap-4 rounded-5">
+                    <div>
+                        <span class="fw-bold">How To Top Up</span>
+                    </div>
+                    <div>
+                        <ol class="mv-marker">
+                            <div class="card border-0 shadow-sm mt-4">
+                                <div class="card-body px-4 py-4">
+                                    <li class="num-mark">
+                                        <span class="fnt-desc">Go to the nearest ATM or you can use E-Banking.</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="card border-0 shadow-sm mt-4">
+                                <div class="card-body px-4 py-4">
+                                    <li class="num-mark">
+                                        <span class="fnt-desc">Type your security number on the ATM or E-Banking.</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="card border-0 shadow-sm mt-4">
+                                <div class="card-body px-4 py-4">
+                                    <li class="num-mark">
+                                        <span class="fnt-desc">Select “Transfer” in the menu.</span>    
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="card border-0 shadow-sm mt-4">
+                                <div class="card-body px-4 py-4">
+                                    <li class="num-mark">
+                                        <span class="fnt-desc">Type the virtual account number that we provide you at the top.</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="card border-0 shadow-sm mt-4">
+                                <div class="card-body px-4 py-4">
+                                    <li class="num-mark">
+                                        <span class="fnt-desc">Type the amount of the money you want to top up.</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="card border-0 shadow-sm mt-4">
+                                <div class="card-body px-4 py-4">
+                                    <li class="num-mark">
+                                        <span class="fnt-desc">Read the summary details.</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="card border-0 shadow-sm mt-4">
+                                <div class="card-body px-4 py-4">
+                                    <li class="num-mark">
+                                        <span class="fnt-desc">Press transfer / top up.</span>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="card border-0 shadow-sm mt-4">
+                                <div class="card-body px-4 py-4">
+                                    <li class="num-mark">
+                                        <span class="fnt-desc">You can see your money in Zwallet within 3 hours.</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </ol>
+                    </div>
                 </div>
-                <div>
-                    <ol class="mv-marker">
-                        <div class="card border-0 shadow-sm mt-4">
-                            <div class="card-body px-4 py-4">
-                                <li class="num-mark">
-                                    <span class="fnt-desc">Go to the nearest ATM or you can use E-Banking.</span>
-                                </li>
-                            </div>
-                        </div>
-                        <div class="card border-0 shadow-sm mt-4">
-                            <div class="card-body px-4 py-4">
-                                <li class="num-mark">
-                                    <span class="fnt-desc">Type your security number on the ATM or E-Banking.</span>
-                                </li>
-                            </div>
-                        </div>
-                        <div class="card border-0 shadow-sm mt-4">
-                            <div class="card-body px-4 py-4">
-                                <li class="num-mark">
-                                    <span class="fnt-desc">Select “Transfer” in the menu.</span>    
-                                </li>
-                            </div>
-                        </div>
-                        <div class="card border-0 shadow-sm mt-4">
-                            <div class="card-body px-4 py-4">
-                                <li class="num-mark">
-                                    <span class="fnt-desc">Type the virtual account number that we provide you at the top.</span>
-                                </li>
-                            </div>
-                        </div>
-                        <div class="card border-0 shadow-sm mt-4">
-                            <div class="card-body px-4 py-4">
-                                <li class="num-mark">
-                                    <span class="fnt-desc">Type the amount of the money you want to top up.</span>
-                                </li>
-                            </div>
-                        </div>
-                        <div class="card border-0 shadow-sm mt-4">
-                            <div class="card-body px-4 py-4">
-                                <li class="num-mark">
-                                    <span class="fnt-desc">Read the summary details.</span>
-                                </li>
-                            </div>
-                        </div>
-                        <div class="card border-0 shadow-sm mt-4">
-                            <div class="card-body px-4 py-4">
-                                <li class="num-mark">
-                                    <span class="fnt-desc">Press transfer / top up.</span>
-                                </li>
-                            </div>
-                        </div>
-                        <div class="card border-0 shadow-sm mt-4">
-                            <div class="card-body px-4 py-4">
-                                <li class="num-mark">
-                                    <span class="fnt-desc">You can see your money in Zwallet within 3 hours.</span>
-                                </li>
-                            </div>
-                        </div>
-                    </ol>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
     <footer class="bg-blue">
         <div class="px-5 py-5">
-            <div class="d-flex flex-row justify-content-between">
+            <div class="d-flex flex-column flex-sm-row justify-content-between gap-4 gap-sm-0">
                 <span class="fw-light text-white">2020 Zwallet. All right reserved.</span>
-                <div class="d-flex flex-row justify-content-between gap-4">
+                <div class="d-flex flex-column flex-sm-row justify-content-between gap-4">
                     <div>
                         <span class="text-white">+62 5637 8882 9901</span>
                     </div>
