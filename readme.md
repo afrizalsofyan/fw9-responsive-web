@@ -4,7 +4,7 @@
   <img src="https://res.cloudinary.com/asadev619/image/upload/v1663851845/responsive-web_p86gcq.png" alt="porto img"/>
   <img src="https://res.cloudinary.com/asadev619/image/upload/v1663851845/responsive-dashboard_ftqq5x.png" width="208"  alt="porto img"/>
   <img src="https://res.cloudinary.com/asadev619/image/upload/v1663851845/responsive-transfer_yy086q.png" width="228" alt="porto img"/>
-  <img src="https://res.cloudinary.com/asadev619/image/upload/v1663851845/responsive-profile_gqnxce.png" width="228"  alt="porto img"/>
+  <img src="https://res.cloudinary.com/asadev619/image/upload/v1663851845/responsive-profile_gqnxce.png" width="268"  alt="porto img"/>
 </p>
 
 # About
