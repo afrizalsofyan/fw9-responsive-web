@@ -11,22 +11,13 @@
 OurPocket Aplication is a application for transfer money, save money and etc based on website.
 
 # Build with
-[![React v18](https://img.shields.io/badge/React%20-v18.2.0-brightgreen.svg?style=flat)](https://github.com/facebook/react)
+![html v18](https://img.shields.io/badge/html%20-v5-brightgreen.svg?style=flat)
 [![Bootstrap v5](https://img.shields.io/badge/Boostrtap%20-v5.2.0-blue.svg?style=flat)](https://github.com/tailwindlabs/tailwindcss)
 
-# Requirements
-1. [Node Js](https://nodejs.dev/en/) V-14
-2. [Backend API](https://github.com/afrizalsofyan/fw9-backend)
 
 # Getting Started
 1. Download this Project or Clone this project
-2. Open this project in your editor then run terminal and type `yarn`
-3. Add .env file at root folder project. Example: `REACT_APP_BACKEND_URL_BASE = server address` 
-4. Run this project with type `yarn start` on terminal.
+2. Open this project in your editor then type yout local folder path.
 
 # Technology
-- [React js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com/)
-- [React Bootstrap](https://react-bootstrap.github.io/)
-- [axios](https://github.com/axios/axios)
-- [react-redux](https://react-redux.js.org/)
